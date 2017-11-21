@@ -1,14 +1,69 @@
+
+
+
+
+
+ul {
+    list-style-type: none;
+  }
+
+  a, a:link, a:visited, a:active, a:hover {border:0!important;}
+
+
+
 .menu{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     height: 100vh;
     width: 20vw;
     background-color: rgba(0, 0, 0, 1);
+    transition: all .27s ease-in-out;
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    display: block;
+  
+}
+
+.menu h2{
+    position: relative;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.menu a:visited{
+    text-decoration: none;
+    color: inherit;
+    
+
+}
+.menu ul{
+    position: relative;
+    top: 25vh;
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li{
+    margin-top: 20px;
 }
 
 .first-page{
-    position: relative;
+    position: absolute;
     left: 20vw;
     width: 80vw;
     height: 100vh;
@@ -20,4 +75,63 @@
     vertical-align: middle;
     font-size: 20vh;
     color: rgba(0, 0, 0, 1);
+}
+
+.da{
+    position: absolute;
+    height: auto;
+    width: 10%;
+    top: 70vh;
+    left: 35%;
+    display: table;
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    transition: all .27s ease-in-out;
+}
+
+.da:hover{
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.da h2{
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.nu{
+    position: absolute;
+    height: auto;
+    width: 10%;
+    top: 70vh;
+    left: 55%;
+    display: table;
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    transition: all .27s ease-in-out;
+}
+
+.nu:hover{
+    border-color: rgba(0, 0, 0, .4);
+}
+
+
+
+
+.nu h2{
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.alb{
+    color: rgba(255, 255, 255, 1);;
 }
